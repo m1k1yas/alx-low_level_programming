@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  *main - function display "Programmin is like building a multilingual puzzle.
  *Return: 0
  */
