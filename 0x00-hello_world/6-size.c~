@@ -1,0 +1,10 @@
+#include <studio.h>
+
+/**
+ *main - display size of types
+ *Return: 0
+ */
+
+int main(void)
+{
+  printf("Size of a char: %lu bytes(s)\n", sizeof(char));
