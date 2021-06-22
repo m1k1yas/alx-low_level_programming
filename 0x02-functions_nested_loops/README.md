@@ -1,1 +1,1 @@
-# README file for project 0x02-function_nested_loops
+# README file for 0x02-functions_nested_loops
