@@ -24,6 +24,5 @@ else
 _putchar('-');
 result = -1;
 }
- 
 return (result);
 }
