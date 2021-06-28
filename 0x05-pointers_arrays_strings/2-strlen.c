@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * _strlen - returns the length of a string
+ * _strlen - returns string length
  * @n: variable integer
+ * @s: variable pointer
  * Return: count
  */
 
@@ -13,5 +14,5 @@ while (*s != '\0')
 n++;
 s++;
 }
-return n;
+ return (n);
 }
