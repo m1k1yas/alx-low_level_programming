@@ -1,34 +1,22 @@
+#include "holberton.h"
 /**
- *_strncat - concatenates two strings
+ *_strcat - concatenates two strings.
  *@dest: pointer parameter destination
  *@src: pointer parameter source
- *@n: parameter integer number
- *Return: destination variable
+ *Return: dest variable
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-int i = 0, j = 0, x = 0, k = 0, y = 0;
-while (dest[i])
+int i = 0, j = 0, y = 0, x = 0;
+while (src[i])
 i++;
-while (src[y])
-y++;
-if (n < y)
+while (dest[j])
+j++;
+i += j;
+for (y = j; y < i; y++)
 {
-n += i;
-for (j = i; j < n; j++)
-{
-dest[j] = src[x];
+dest[y] = src[x];
 x++;
-}
-}
-else
-{
-n = i + y;
-for (k = i; k < n; k++)
-{
-dest[k] = src[x];
-x++;
-}
 }
 return (dest);
 }
