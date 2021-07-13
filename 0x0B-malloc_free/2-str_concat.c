@@ -19,7 +19,7 @@ while (s1[len1])
 len1++;
 while (s2[len])
 len++;
-ptr = malloc(sizeof(char) * (len + len1) + 1);
+ptr = malloc(sizeof(char) * (len + len1) +1);
 if (!(ptr == NULL))
 {
 for (i = 0; i < len1; i++)
