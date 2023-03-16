@@ -14,4 +14,9 @@ gcc main.c -c
 Generates the assembly code of a C code and save it in an output file
 ```bash
 gcc main.c -S
-``` 
+```
+3. **name**
+compiles a C file and creates an executable
+```bash
+gcc main.c
+```
