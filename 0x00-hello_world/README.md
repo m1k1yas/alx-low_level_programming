@@ -20,3 +20,13 @@ compiles a C file and creates an executable
 ```bash
 gcc main.c
 ```
+4. **puts.c**
+Write a C program that prints using the function puts
+```c
+int main(void)
+{
+char string[] = "..."
+puts(string)
+}
+```
+
