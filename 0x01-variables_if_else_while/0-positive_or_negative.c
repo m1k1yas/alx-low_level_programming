@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main : entry point
- *
+ * Description: the progam checks if n is positive or negative.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -24,6 +24,6 @@ int main(void)
 		printf("%i is negative\n", n);
 	}
 	else
-		printf("%i is zero:\n", n);
+		printf("%i is zero\n", n);
 	return (0);
 }
