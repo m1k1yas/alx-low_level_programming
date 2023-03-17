@@ -4,8 +4,8 @@
 #include<stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main : entry point
- * Description: the progam checks if n is positive or negative.
+ * main - entry point to check if a number is positive or negative
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
