@@ -20,7 +20,7 @@ char *cap_string(char *str)
 			}
 			continue;
 		}
-		if (str[i] == ' ' || str[i] == '	' || str[i] == '\n' || str[i] == ',' || str[i] == ';' || str[i] == '.'  || str[i] == '!' || str[i] == '?' || str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
+		if ((str[i] < 'A' && str[i] > 'Z') || (str[i] < 'a' && str[i] > 'z'))
 		{
 			++i;
 			if (str[i] >= 'a' && str[i] <= 'z')
